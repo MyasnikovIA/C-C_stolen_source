@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link rel="shortcut icon" href="//www.adityaravishankar.com/favicon.ico" />
+
+		<title>Command And Conquer - Tiberian Dawn - HTML5</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/game.css"/>
+
+		<script type="text/javascript" src="release/jquery.js"></script>
+		<script type="text/javascript" src="release/cnc-0.8.3.b.js"></script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37334277-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+		<meta property='fb:app_id' content='268072089881146' />
+		<meta property="og:image" content="http://www.adityaravishankar.com/projects/games/command-and-conquer/images/command-and-conquer-html5.jpg"/>
+		<meta property="og:title" content="Command and Conquer - HTML5"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="http://www.adityaravishankar.com/projects/games/command-and-conquer/"/>
+		<meta property="og:description" content="This is a recreation of the original RTS game,Command and Conquer - Tiberian Dawn, entirely in HTML5 and Javascript. It includes several levels in the single player campaign and multiplayer support using Node.js. The current version is a complete rewrite from scratch with new levels, units, infantry, sounds and explosions and multiplayer."/>
+
+	</head>
+	<body>
+		<div class="mainlayoutdiv">
+			<div class="leftpanel">
+				<img src="images/cnchtml5logo.jpg" width="100%">
+				<h2>C&amp;C - HTML5<br><span> by <a href="http://www.adityaravishankar.com" target="_blank">Aditya Ravi Shankar</a></span></h2>
+				<p>This is a recreation of the original Command and Conquer RTS game, entirely in HTML5 and JavaScript.</p>
+				<p>The current version includes several levels in the single player campaign and multiplayer support using Node.js.</p>
+				<p>If you are interested in game programming, you can read more about <a href="http://www.adityaravishankar.com/2011/11/command-and-conquer-programming-an-rts-game-in-html5-and-javascript/" title="Command and Conquer - Programming an RTS game in HTML5 and Javascript" target="_blank">the development of this game</a> and some of my <a href="http://www.adityaravishankar.com/category/programming/game-programming/" title="Game Programming Articles" target="_blank">game programming articles</a> on my website. </p>
+				<p class="booksmallad">Interested in learning how to write your own RTS game  in HTML5? Check out my book <a href="http://www.adityaravishankar.com/pro-html5-games/" target="_blank">Pro HTML5 Games</a>.</p>
+				<div class="askfordonations">
+					<p class="donation">
+						If you enjoyed this project, you can show your support by donating via Paypal using the button below. </p>
+					<div>
+
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+							<input type="hidden" name="cmd" value="_s-xclick">
+							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+							">
+							<input type="image" src="images/btn_donate_paypal.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+
+						</form>
+
+					</div>
+			</div>
+			</div>
+			<div class="middlepanel">
+				<div class="fullscreencontainer">
+					<div class="gamecontainer">
+						<div id="gameinterfacescreen" class="gamelayer">
+							<canvas class="gamebackgroundcanvas" height="535" width="640"></canvas>
+							<canvas class="gameforegroundcanvas" height="535" width="640">Your browser does not support the HTML5 Canvas feature. This game uses new HTML5 features and will only work on the latest versions of Firefox, Safari or Chrome (and maybe Internet Explorer 9).</canvas>
+							<canvas class="gameutilitycanvas" height="535" width="640"></canvas>
+							<canvas class="videocanvas" height="535" width="640"></canvas>
+
+							<div class=" messages"></div>
+
+							<canvas class="mousecanvas" height="535" width="640"></canvas>
+							<input type="text"class=" input-message">
+
+						</div>
+						<div id="menu-container" class="gamelayer">
+							<div id="game-type-menu-div" class="game-menu">
+								<p class="header">C&amp;C-HTML5 - v0.8.3.b <br>by <a href="http://www.adityaravishankar.com/" target="_blank">Aditya Ravi Shankar</a></p>
+								<input type="button" class="singleplayer-game" />
+								<input type="button" class="load-game" />
+								<input type="button" class="multiplayer-game" />
+								<input type="button" class="view-game-replay" />
+
+
+								<div id="fb-root"></div>
+								<script  type="text/javascript">(function(d, s, id) {
+									var js, fjs = d.getElementsByTagName(s)[0];
+									if (d.getElementById(id)) return;
+									js = d.createElement(s); js.id = id;
+									js.aysnc=true;
+									js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+									fjs.parentNode.insertBefore(js, fjs);
+									}(document, 'script', 'facebook-jssdk'));
+								</script>
+								<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+								<!--script src="//platform.linkedin.com/in.js" type="text/javascript"></script-->
+
+
+								<div class="footer">
+									<p class="boring social">If you liked this demo, please share this page with all of your friends using the buttons below.</p>
+									<div class="sharebuttons social" >
+<!-- 										<div class="sharebutton">
+											<a class="FlattrButton" style="display:none;"
+											    title="Command And Conquer - Tiberian Dawn - HTML5"
+											    data-flattr-description="This is a recreation of the original RTS game,Command and Conquer - Tiberian Dawn, entirely in HTML5 and Javascript. It includes several levels in the single player campaign and multiplayer support using Node.js. The current version is a complete rewrite from scratch with new levels, units, infantry, sounds and explosions and multiplayer"
+											    data-flattr-uid="adityaravishankar"
+											    data-flattr-tags="html5,game, command and conquer, javascript"
+											    data-flattr-category="rest"
+											    href="http://www.adityaravishankar.com/projects/games/command-and-conquer">
+											</a>
+										</div> -->
+									 	<div class="sharebutton">
+									 		<div class="fb-share-button fb-like-small" data-send="false" data-href="http://www.adityaravishankar.com/projects/games/command-and-conquer/" data-layout="box_count"  data-show-faces="false"></div>
+									</div>
+				 						<div class="sharebutton">
+											<div data-size="tall" class="g-plusone" data-href="http://www.adityaravishankar.com/projects/games/command-and-conquer/" ></div>
+										</div>
+										<div class="sharebutton">
+											<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.adityaravishankar.com/projects/games/command-and-conquer/" data-via="adityarshankar" data-count="vertical" data-text="C&amp;C - HTML5 v0.8.3, now has a new single player mission and a shiny fast multiplayer server!!" data-hashtags="CNCHTML5">Tweet</a>
+										</div>
+<!-- 										<div class="sharebutton">
+											<script type="IN/Share" data-url="http://www.adityaravishankar.com/projects/games/command-and-conquer/" data-counter="top"></script>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div id="mission-ended-menu-div" class="game-menu">
+							</div>
+							<div id="select-campaign-menu-div" class="game-menu select-transmission">
+								<input type="image" class="gdi-campaign" value=" " src="images/blank.gif"/>
+								<input type="image" class="nod-campaign" value=" " src="images/blank.gif"/>
+								<img class="select-transmission-text" src="images/menu/select-transmission.png"/>
+							</div>
+							<div id="load-mission-menu-div" class="game-menu">
+								<select class="mission-list" size="11" multiple="false">
+								</select>
+								<input type="button" class="load-button" />
+								<input type="button" class="cancel-button"/>
+							</div>
+							<div id="save-mission-menu-div" class="game-menu">
+								<select class="mission-list" size="11" multiple="false">
+								</select>
+								<input type="text" class="mission-name" />
+								<input type="button" class="save-button" />
+								<input type="button" class="cancel-button"/>
+							</div>
+							<div id="delete-mission-menu-div" class="game-menu">
+								<select class="mission-list" size="11" multiple="false">
+								</select>
+								<input type="button" class="delete-button" />
+								<input type="button" class="cancel-button"/>
+							</div>
+							<div id="replay-game-menu-div" class="game-menu">
+								<select class="mission-list" size="11" multiple="false">
+								</select>
+								<input type="button" class="save-button" />
+								<input type="button" class="load-button" />
+								<input type="button" class="cancel-button"/>
+							</div>
+							<div id="singleplayer-game-options-menu-div" class="game-menu">
+								<input type="button" class="load-mission-button" />
+								<input type="button" class="save-mission-button"/>
+								<input type="button" class="delete-mission-button"/>
+								<input type="button" class="game-controls-button"/>
+								<input type="button" class="abort-mission-button"/>
+								<input type="button" class="resume-mission-button"/>
+								<input type="button" class="restate-mission-button"/>
+							</div>
+							<div id="multiplayer-game-options-menu-div" class="game-menu">
+								<input type="button" class="sound-controls-button" />
+								<input type="button" class="resume-game-button"/>
+								<input type="button" class="abort-game-button"/>
+							</div>
+							<div id="abort-mission-menu-div" class="game-menu">
+								<input type="button" class="yes-button" />
+								<input type="button" class="restart-button"/>
+								<input type="button" class="no-button"/>
+							</div>
+							<div id="restate-mission-menu-div" class="game-menu">
+								<input type="button" class="video-button" />
+								<input type="button" class="options-button"/>
+								<div class="mission-briefing">??</div>
+							</div>
+							<div id="game-controls-menu-div" class="game-menu">
+								<div class="gamespeed"></div>
+								<div class="scrollspeed"></div>
+								<input type="button" class="visual-controls-button" />
+								<input type="button" class="sound-controls-button" />
+								<input type="button" class="options-button"/>
+							</div>
+							<div id="sound-controls-menu-div" class="game-menu">
+								<div class="musicvolume"></div>
+								<div class="soundvolume"></div>
+								<select class="music-tracks-list" size="11">
+									<option>Track 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2:52 &nbsp; Act On Instinct</option>
+									<option>Track 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2:42 &nbsp; To Be Feared</option>
+									<option>Track 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2:50 &nbsp; Mechanical Man</option>
+									<option>Track 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2:20 &nbsp; Just Do It Up</option>
+									<option>Track 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3:10 &nbsp; C&amp;C Thang</option>
+								</select>
+
+								<input type="button" class="stop-button" />
+								<input type="button" class="play-button" />
+								<input type="button" class="shuffle-button" value="Off"/>
+								<input type="button" class="repeat-button" value="Off"/>
+								<input type="button" class="options-button"/>
+							</div>
+							<div id="join-network-game-menu-div" class="game-menu">
+								<input type="text" class="player-name" maxlength="25">
+								<div class="multiplayer-team">
+									<label><input type="radio" name="multiplayer-team" value="gdi" checked>GDI</label>
+									<label><input type="radio" name="multiplayer-team" value="nod">NOD</label>
+								</div>
+								<div class="multiplayer-team-color">
+									<span style = "background-color:yellow;"><input type="radio"  name="multiplayer-team-color" value="yellow" checked></span>
+									<span style = "background-color:red;"><input type="radio" name="multiplayer-team-color" value="red"></span>
+									<span style = "background-color:teal;"><input type="radio" name="multiplayer-team-color" value="teal"></span>
+									<span style = "background-color:orange;"><input type="radio" name="multiplayer-team-color" value="orange"></span>
+									<span style = "background-color:lightgreen;"><input type="radio" name="multiplayer-team-color" value="green"></span>
+									<span style = "background-color:gray;"><input type="radio" name="multiplayer-team-color" value="gray"></span>
+									<span style = "background-color:brown;"><input type="radio" name="multiplayer-team-color" value="brown"></span>
+								</div>
+								<select size="5" class="games-list"></select>
+								<select size="5" class="player-list"></select>
+								<div class='messages'></div>
+								<input type="button" class="join-multiplayer-button"/>
+								<input type="button" class="cancel-multiplayer-button"/>
+								<input type="button" class="new-multiplayer-button"/>
+								<input type="button" class="send-message-button"/>
+								<input type="text" class="input-message">
+							</div>
+							<div id="start-network-game-menu-div" class="game-menu">
+								<select class="player-list" size="6"><option>adi</option></select>
+								<select class='scenarios' size="5">
+									<option value="0" selected>GREEN ACRES</option>
+									<option value="1">SAND TRAP</option>
+									<option value="2">LOST ARENA</option>
+									<option value="3">RIVER RAID</option>
+									<option value="4">EYE OF THE STORM</option>
+								</select>
+								<div class="gamespeed"></div>
+								<input type="button" class="reject-player-button"/>
+								<input type="button" class="start-multiplayer-button"/>
+								<input type="button" class="cancel-multiplayer-button"/>
+								<input type="button" class="send-message-button"/>
+								<div class="messages"></div>
+								<input type="text" class="input-message">
+								<input type="text" class="starting-credits" value="5000" maxlength="6"/>
+							</div>
+							<div id="joined-network-game-menu-div" class="game-menu">
+								<select class="player-list" size="5"><option>adi</option></select>
+								<input type="button" class="cancel-multiplayer-button"/>
+								<input type="button" class="send-message-button"/>
+								<div class="messages"></div>
+								<input type="text" class="input-message">
+							</div>
+						</div>
+						<div id="message-box-container" class="gamelayer" style="background-color: green;">
+							<div id="message-box-menu-div" class="game-menu">
+								<div class="message-box-title">??</div>
+								<div class="message-box-content">???</div>
+								<input type="button" class="message-box-ok"/>
+							</div>
+						</div>
+
+						<div id="loadingscreen" class="gamelayer">
+							<div id="loadingbar">
+								<div id="loadingmessage"></div>
+								<progress id="progressbar" max="100" value="60"></progress>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="gamecontrols">
+					<input type="button" value="Play Full Screen (experimental)" id="fullscreenbutton">
+				</div>
+				<div>
+					<p class="boring">DISCLAIMER: This project is only intended as a technical proof of concept to demonstrate the basic working elements of an RTS game in HTML5. No commercial use is intended. All images and sounds used are from C&amp;C - Tiberian Dawn and are property of the original game creators.</p>
+					<p class="boring">This game works only on HTML5 compatible browsers. It has been tested on <a href="http://www.google.com/chrome" title="Google Chrome - Get a fast new browser. For PC, Mac, and Linux" target="_blank">Google Chrome</a>, <a href="http://www.opera.com/download/" target="_blank">Opera</a>, <a href="http://www.apple.com/safari/" title="Apple - Safari - Browse the web in smarter, more powerful ways.">Safari</a> and <a href="http://www.mozilla.org/en-US/firefox/new/" title="Mozilla Firefox Web Browser — Free Download" target="_blank">Mozilla Firefox</a>. <b>Internet Explorer 9 does not work.</b></p>
+				</div>
+				<!-- <div class="fb-comments dark-background" data-href="http://www.adityaravishankar.com/projects/games/command-and-conquer/" data-colorscheme="dark" data-num-posts="3"></div> -->
+			</div>
+		</div>
+		<footer></footer>
+	</body>
+</html>

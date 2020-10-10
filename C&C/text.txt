@@ -1,0 +1,586 @@
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/maps/singleplayer/nod/scb01ea.js", {
+  "headers": {
+    "accept": "application/json, text/javascript, */*; q=0.01",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/maps/singleplayer/nod/scb01ea.js", {
+  "headers": {
+    "accept": "application/json, text/javascript, */*; q=0.01",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/maps/singleplayer/nod/scb01ea.jpg", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/vehicles/buggy-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/sidebar/select-1-1.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/vehicles/jeep-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/trees/desert-tree-08-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/trees/desert-tree-18-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/minigunner-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-1-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-3-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-4-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-5-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-6-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-7-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-8-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-9-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/infantry/civilian-10-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-20-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/sidebar/select-2-2.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/bib-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-21-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-22-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-23-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-24-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-25-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-26-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/sidebar/select-2-1.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-27-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/images/buildings/civilian-building-30-sprite-sheet.png", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/videos/nod/nod1.webm", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "range": "bytes=0-",
+    "sec-fetch-dest": "video",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/audio/ost/aoi.ogg", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "range": "bytes=32768-",
+    "sec-fetch-dest": "video",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/favicon.ico", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+}); ;
+fetch("https://www.adityaravishankar.com/projects/games/command-and-conquer/audio/ost/befeared.ogg", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "range": "bytes=32768-",
+    "sec-fetch-dest": "video",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://www.adityaravishankar.com/projects/games/command-and-conquer/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+});
+ +7-953-802-69-26
+ +7-952-904-15-75
+ +7-913-456-63-69
