@@ -4,5 +4,5 @@
 <br/>Исходник загружен с сата https://www.adityaravishankar.com/projects/games/command-and-conquer/
 <br/>с использованием программы Download_Tools.py.
 <h1>Нет серверной части для Multiplayer</h1>
-для этого рекжима необходимо писать Web socket сервер
+для этого режима необходимо писать Web socket сервер
 
